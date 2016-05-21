@@ -1,0 +1,223 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url('../images/wild_flowers.png');
+	margin: 0;
+	padding: 0;
+}
+
+#headwrapper,
+#wrapper,
+#footwrapper{
+	width: 980px;
+	overflow: auto;
+	margin: 0 auto;
+}
+
+#wrapper{
+	height: auto;
+}
+
+#header{
+	width: 100%;
+	height: 100px;
+	background-color: white;
+}
+
+#name{
+	float: left;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+	color: white;
+	font-size: 40px;
+	background-color: #4aaaa5;
+	padding: 30px 10px 30px 10px;
+}
+
+#links{
+	float: right;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: bold;
+	width: 400px;
+	padding: 42px 10px 42px 10px;
+	background-color: white;
+
+}
+
+#link_index,
+#link_portfolio,
+#link_contact,
+#line1,
+#line2{
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+
+#aboutme{
+	float: left;
+	margin-top: 25px;
+	width: 500px;
+	height: auto;
+	background-color: white;
+}
+
+#aboutmetitle{
+		font-family: 'Georgia', Times, Times New Roman, serif;
+		font-weight: bold;
+		color: #4aaaa5;
+		font-size: 40px;
+		padding: 20px 0px 0px 20px;
+}
+
+#image{
+	float: left;
+	padding: 20px;
+}
+
+#text{
+	padding: 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	line-height: 25px;
+}
+
+#connect{
+	float: right;
+	margin-top: 25px;
+	width: 420px;
+	height: auto;
+	background-color: white;
+}
+
+#connecttext{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+	color: #4aaaa5;
+	font-size: 30px;
+	text-align: center;
+	padding: 20px 0px 0px 0px;
+}
+
+#githubimg,
+#linkedinimg,
+#stackimg{
+	width: 33.33%;
+	float: left;
+	padding: 5px;
+}
+
+#footer{
+	width: 980px;
+	height: 100px;
+	background-color: #666666;
+	border-top: 10px solid #4aaaa5;
+	text-align: center;
+	color: white;
+	margin-top: 25px;
+}
+
+#contact{
+	float: left;
+	margin-top: 25px;
+	width: 500px;
+	height: auto;
+	background-color: white;
+}
+
+#contacttext{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+	color: #4aaaa5;
+	font-size: 40px;
+	padding: 20px 0px 0px 20px;
+}
+
+#nametext, 
+#emailtext, 
+#messagetext{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	padding: 0px 0px 0px 20px;
+}
+
+#submitbut{
+	padding: 0px 0px 20px 20px;
+}
+
+#portfolio{
+	float: left;
+	margin-top: 25px;
+	width: 500px;
+	height: auto;
+	background-color: white;
+}
+
+#portftext{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+	color: #4aaaa5;
+	font-size: 40px;
+	padding: 20px 0px 0px 20px;
+
+}
+
+#Hangman,
+#RPG,
+#Trivia,
+#Widget{
+	float: left;
+	padding: 20px 0px 0px 20px;
+}
+
+#RockPS{
+	float: left;
+	padding: 20px 0px 20px 20px;
+}
+
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+	#headwrapper,
+	#wrapper,
+	#footwrapper{
+		width: 100%;
+		overflow: auto;
+	}
+
+	#connect{
+		width: 100%;
+	}
+
+	#footer{
+		width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 640px) {
+
+	#header{
+		position: static;
+	}
+
+	#name,
+	#links{
+		width: 100%;
+		text-align: center;
+	}
+
+	#image{
+		float: none;
+	}
+
+	#Hangman,
+	#RPG,
+	#Trivia,
+	#Widget,
+	#RockPS{
+	float: none;
+	}
+}
